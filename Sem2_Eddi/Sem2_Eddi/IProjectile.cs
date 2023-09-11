@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inventario
+namespace Sem2_Eddi
 {
-    class Program
+    public interface IProjectile
     {
-        static void Main(string[] args)
-        {
-        }
+        int getDamageProjectile();
     }
 }
+
